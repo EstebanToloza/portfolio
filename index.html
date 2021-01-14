@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Resume - Start Bootstrap Theme</title>
+        <title>Esteban Toloza - Web Developer</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -19,8 +19,8 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Clarence Taylor</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+                <span class="d-block d-lg-none">Esteban Toloza</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/foto_de_perfil.jpeg" alt="" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -31,6 +31,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -44,8 +45,8 @@
                         <span class="text-primary">Toloza</span>
                     </h1>
                     <div class="subheading mb-5">
-                        3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                        <a href="mailto:name@email.com">name@email.com</a>
+                        Full-stack Web Developer - 
+                        <a href="mailto:name@email.com">etsoweb@gmail.com</a>
                     </div>
                     <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
                     <div class="social-icons">
@@ -216,6 +217,46 @@
                     </ul>
                 </div>
             </section>
+
+            <hr class="m-0" />
+
+            <section class="resume-section" id="contact">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Contact</h2>
+                    <form action="enviar" method="post" enctype="application/x-www-form-urlencoded">
+
+                        <label for="nombre">Ingrese su nombre:</label>
+                        <input class="form-control" type="text" name="nombre" placeholder="Ej: Obi Juan Kenobi" required>
+                        
+                        <br>
+            
+                        <label for="correo">Ingrese su E-Mail:</label>
+                        <input class="form-control" type="email" name="correo" placeholder="Ej: obi.juan@jedi.com" required>
+            
+                        <br>
+            
+                        <label for="asunto">Elija su asunto:</label>
+                        <select class="form-control" name="asunto">
+                            <option value="1">Consulta</option>
+                            <option value="2">Pedido</option>
+                            <option value="3">Sugerencia</option>
+                            <option value="4">Reclamo</option>
+                        </select>
+            
+                        <br>
+            
+                        <label for="mensaje">Ingrese su mensaje:</label>
+                        <textarea class="form-control" name="mensaje" cols="30" rows="10" placeholder="Max: 100 caracteres" required></textarea>
+            
+                        <br>
+            
+                        <input class="btn btn-primary" type="submit" value="Done!">
+            
+            
+                    </form>
+                </div>
+            </section>
+
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

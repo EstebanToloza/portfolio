@@ -10133,3 +10133,17 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.footer-estilos-personalizados {
+  height: 120px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column;
+}
+
+.social-icon-footer {
+  height: 2.5rem !important; 
+  width: 2.5rem !important;
+  font-size: 1rem !important;
+}
